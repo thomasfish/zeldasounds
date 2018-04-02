@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Hylia Serif";
+  src: url("hylia-serif.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #2F2F2F;
+  padding: 15px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.game {
+  font-family: serif;
+  font-style: italic;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+  background: #6070D8;
+  padding: 15px;
+  border: 2px rgba(0,0,0,0.2) solid;
+}
+
+.intro {
+  background: #000;
+  border-left: 2px rgba(255,255,255,0.3) solid;
+  border-right: 2px rgba(255,255,255,0.3) solid;
+  color: #fff;
+  padding: 5px;
+}
+
+.intro p {
+  padding: 5px;
+}
+
+
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  padding: 8px 7px;
+  margin: 0;
+  border-bottom: 2px rgba(0,0,0,0.2) solid;
+  border-right: 2px rgba(0,0,0,0.2) solid;
+}
+
+.qual {
+  max-width: 30px;
+}
+.size {
+  max-width: 20px;
+}
+.desc {
+  color: #fff;
+  border-bottom: 2px rgba(255,255,255,0.1) solid;
+  border-right: 2px rgba(255,255,255,0.1) solid;
+}
+td:nth-child(1) {
+  max-width: 40px;
+  overflow-x: hidden;
+  border-left: 2px rgba(0,0,0,0.2) solid;
+}
+
+tr:first-child td {
+  border-top: 2px rgba(0,0,0,0.2) solid;
+}
+
+tr:first-child .desc {
+  border-top: 2px rgba(255,255,255,0.1) solid;
+}
+
+td a {
+  color: #5050d0;
+  text-decoration: none;
+  border-bottom: #5050d066 1px solid;
+}
+td a:hover {
+  opacity: 0.7;
+}
+
+tr:nth-child(odd) td {
+  background: #C8D2F0;
+}
+tr:nth-child(even) td {
+  background: #EAEFEC;
+}
+
+tr:nth-child(odd) .desc {
+  background: #084810;
+}
+tr:nth-child(even) .desc {
+  background: #105222;
+}
